@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raksha Koirala - Pixels Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#experience">Experience & Skills</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Home/Portfolio Section -->
+        <section id="home">
+            <h1>Welcome to Pixels Portfolio</h1>
+            <p>Explore our latest photography projects and see the world through our lens.</p>
+            <div class="portfolio-items">
+                <div class="item">
+                    <img src="./images/weddingplanner-soulmate-wedding-planner-weddingdecor-1_15_458368-170047912391937.jpeg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>A wedding that focuses on planning abd executing a seamless and personalized ceremony and reception for the couple.</p>
+                </div>
+                <div class="item">
+                    <img src="./images/project 2.webp" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>A wedding project involves crafting the perfect day, from venue selection to final touches, ensuring a beautiful and unforgettable celebration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h1>Our Gallery</h1>
+            <p>Browse through our collection of high-resolution images.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./images/project 3..avif" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="./images/picture 1.jpg" alt="Gallery Image 2">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Skills Section -->
+        <section id="experience">
+            <h1>Our Experience & Skills</h1>
+            <p>Learn about our journey and the expertise we bring to the table.</p>
+            <div class="experience-details">
+                <div class="skill">
+                    <h3>Photography</h3>
+                    <p>Over 10 years of experience in various photography styles.</p>
+                </div>
+                <div class="skill">
+                    <h3>Editing</h3>
+                    <p>Proficient in Adobe Photoshop, Lightroom, and other editing tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Pixels is a team of passionate photographers dedicated to capturing the beauty of the world through our lens. With years of experience in the industry, we specialize in a variety of photography styles, including portrait, landscape, and event photography. Our goal is to provide our clients with stunning, high-quality images that they will cherish forever.</p>
+            <p>We believe in the power of visual storytelling, and our work reflects our commitment to excellence. Each photograph we take is a blend of creativity, technical skill, and a deep understanding of our clients' needs. Whether it's a wedding, corporate event, or a personal portrait session, we strive to deliver images that not only meet but exceed expectations.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class='bx bxl-gmail' ></i>koiralarakshya2@gmail.com</p>
+                        <p><i class='bx bxs-phone'></i>+977 9861791487</p>
+                        <div class="social-icons">
+                            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                            <a href="#"><i class='bx bxl-twitter' ></i></a>
+                            <a href="#"><i class='bx bxl-discord-alt' ></i></a>
+                        </div>
+                        <a href="#" class="btn btn2">Download CV</a>
+                    </div>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Have a question or want to work with us? Get in touch!</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+       
+
+        <!-- Admin Section -->
+        <section id="admin">
+            <h1>Admin Panel</h1>
+            <form id="portfolioForm">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="image">Image URL:</label>
+                <input type="url" id="image" name="image" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <button type="submit">Add to Portfolio</button>
+            </form>
+            
+            <h3>Messages</h3>
+            <div id="messages">
+                <!-- Messages from the contact form will be displayed here -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rakshya Koirala Pixels. All rights reserved.</p>
+    </footer>
+    <script scr="./java script.js"></script>
+</body>
+</html>
